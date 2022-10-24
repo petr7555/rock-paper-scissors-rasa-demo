@@ -1,0 +1,12 @@
+# IDE files
+.idea
+
+# Python files
+__pycache__
+
+# Rasa files
+.rasa
+# exclude everything from models folder
+models/*
+# except for .gitkeep, so that folder itself is included
+!models/.gitkeep
